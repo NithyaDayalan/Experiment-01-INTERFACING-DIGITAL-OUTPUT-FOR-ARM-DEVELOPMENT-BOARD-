@@ -1,4 +1,4 @@
-## EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT--01-ALP-FOR-8086
 ## Name : NITHYA D
 ## Roll no : 212223240110
 ## Date of experiment : 12.08.2024
@@ -37,7 +37,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic operations :
-## Addition of 8 bit ALP :
+### Addition of 8 bit ALP :
 ```
 org 100h
 MOV al,11h;
@@ -46,11 +46,11 @@ ADD al,bl;
 MOV [6379h],al;
 ret
 ```
-## Output :
+### Output :
 ![359149943-115a2ddb-c4f1-4479-a940-fc1784f5deb2](https://github.com/user-attachments/assets/00784ea7-8c10-4300-b63a-5d835f5ceb29)
 
 
-## Subtraction of 8 bit numbers ALP :
+### Subtraction of 8 bit numbers ALP :
 ```
 org 100h
 MOV al,20h;
@@ -59,10 +59,10 @@ SUB bl,al;
 MOV [8798h],bl;
 ret
 ```
-## Output :
+### Output :
 ![Screenshot 2024-08-21 142725](https://github.com/user-attachments/assets/de1c079d-1052-41da-a9a0-cc0407535542)
 
-## Multiplication alp :
+### Multiplication alp :
 ```
 org 100h
  MOV al,13h;
@@ -71,10 +71,10 @@ org 100h
  MOV [6063h],bl;
  ret
 ```
-## Output :
+### Output :
 ![Screenshot 2024-08-21 143059](https://github.com/user-attachments/assets/bafebcc4-180b-44ec-b20d-c9e46206398d)
 
-## Division alp :
+### Division alp :
 
 ```
 org 100h
@@ -84,11 +84,11 @@ org 100h
  MOV [2399h],al;
  ret
 ```
-## Output :
+### Output :
 ![Screenshot 2024-08-21 224750](https://github.com/user-attachments/assets/1db56b2b-00b7-4217-a998-a1e292ecf6fb)
 
 ## Programs For Logical Operators :
-## AND
+### AND
 ```
 org 100h
 mov bx,1000h;
@@ -96,20 +96,20 @@ and bx,1111h;
 mov [0040h+02],bx;
 ret
 ```
-## Output :
+### Output :
 ![Screenshot 2024-08-21 222956](https://github.com/user-attachments/assets/c2b51b12-462b-4109-9286-0216c92aa912)
 
-## OR :
+### OR :
 ```
 MOV SI,0532H;
 MOV AX,0A32H;
 MOV BX,0B13H;
 OR AX,BX;
 ```
-## Output :
+### Output :
 ![Screenshot 2024-08-21 223433](https://github.com/user-attachments/assets/af11a859-2d0c-405a-9735-07198e672b81)
 
-## NOT :
+### NOT :
 ```
 org 100h
 mov bx,0040h;
@@ -118,17 +118,17 @@ not al;
 mov [0040h+04],ax;
 ret
 ```
-## Output:
+### Output:
 ![359154412-80e5a7d3-89b9-4756-ae19-8ab5fa6844f6](https://github.com/user-attachments/assets/931ee947-a992-4560-af16-7388ce237934)
 
-## XOR:
+### XOR:
 ```
 MOV [SI+2],AX;
 MOV AX,0A32H;
 MOV BX,0B13H;
 XOR AX,BX;
 ```
-## Output:
+### Output:
 ![359155181-f90ba85a-5455-4f20-b4bc-2ad80fcbd183](https://github.com/user-attachments/assets/847d7c1d-694a-4014-8c52-91594143c0b3)
 
 ## Result:
